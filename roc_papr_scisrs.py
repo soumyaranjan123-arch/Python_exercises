@@ -4,7 +4,7 @@ def rock_paper_scissors():
 
     comp = ['rock','paper','scissors']
 
-    print('Welcome to Rock, Paper and Scissors game.')
+    print('Welcome to Rock, Paper and Scissors game .')
 
     i = 0
     score = 0
