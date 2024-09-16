@@ -1,15 +1,16 @@
 
 def main():
     text = input('Enter a word: ')
-    palindrome_checker(text)
+    reversed_text = palindrome_checker(text)
 
-def palindrome_checker(myStr):
-    reversed_str = myStr[::-1]
-    print(reversed_str)
-
-    if myStr == reversed_str:
+    if text == reversed_text:
         print('It is a palindrome.')
     else:
         print('Not a Palindrome.')
+
+def palindrome_checker(myStr):
+    reversed_str = myStr[::-1]
+    return reversed_str
+
 
 main()
